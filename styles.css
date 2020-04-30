@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 10px auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #4d089a;
+  line-height: 0.5;
+}
+
+h2 {
+  font-family: 'Sacramento', cursive;
+  font-size: 2.5rem;
+  color: #4d089a;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #4d089a;
+    font-size: 1.5rem;
+}
+
+p {
+  color: #2c3e50;
+  line-height: 2;
+}
+
+a {
+  color: #4d089a;
+}
+
+hr {
+  width: 10%;
+  margin-bottom: 50px;
+      margin-top: 50px;
+      border-right-width: 0;
+      border-bottom-width: 0;
+      border-color: #fce2db;
+      border-top-style: dotted;
+      border-top-width: 5px;
+
+}
+
+.span {
+  text-decoration: underline;
+}
+
+.top-container {
+  background-color: #fce2db;
+  position: relative;
+  padding-top: 100px;
+}
+
+.cloud1 {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.cloud2 {
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+
+.unicorn {
+  position: relative;
+  left: 150px;
+  width: 260px;
+}
+
+.Lesana {
+  width: 300px;
+  padding-top: 30px;
+}
+
+.hello-message {
+  width: 50%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 50%;
+  margin: auto;
+}
+
+.skill-row {
+  text-align: left;
+  width: 800px;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+}
+
+
+
+.agile-img {
+  width: 200px;
+  float: left;
+  margin-right: 50px;
+}
+
+.high-img {
+  width: 250px;
+  float: right;
+  margin-left: 50px;
+}
+
+
+.middle-container {
+  background-color: #f1c6d3;
+  padding-bottom: 20px;
+}
+
+.bottom-container {
+  background-color: #e4a3d4;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.BUTTON {
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:21px;
+	border:2px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#4d089a;
+  font-family: 'Montserrat', sans-serif;
+	font-size:16px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:1px 0px 5px #e4a3d4;
+  margin-top: 50px;
+
+}
+.BUTTON:hover {
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color:#bab1ba;
+}
+.BUTTON:active {
+	position:relative;
+	top:1px;
+}
