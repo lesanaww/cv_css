@@ -32,6 +32,13 @@ p {
 
 a {
   color: #4d089a;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+  color: #fce2db;
 }
 
 hr {
@@ -145,4 +152,12 @@ hr {
 .BUTTON:active {
 	position:relative;
 	top:1px;
+}
+
+
+.copyright {
+  color: #4d089a;
+    font-family: 'Montserrat', sans-serif;
+    margin: 30px auto 0 auto;
+    font-size: 0.75rem;
 }
